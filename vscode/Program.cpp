@@ -1,49 +1,37 @@
 #include <iostream>
-#include <cmath>
 #include <limits>
+
 using namespace std;
 
 int main()
 {
-    short s = 1; // 2bytes = 2 * 8 bits = 16 bits(2의 16제곱가지 숫자를 포현할 수 있음)
-    int i = 1;
-    long l = 1;
-    long long ll = 1;
+    float f;
+    double d;
+    long double ld;
 
-    // sign는 가장 맨 앞에 부호를 표기하는데 사용해야 해서 15제곱을 해야함
-    // 0을 제외한 숫자를 표기해야하기 때문에 -1을 빼줌
-    cout << pow(2, sizeof(short) * 8 - 1) - 1 << endl; // 32767이 표현할 수 있는 가장 큰 숫자
-    cout << numeric_limits<short>::max() << endl; // 32767
-    cout << numeric_limits<short>::min() << endl; // -32768 (0 포함)
-    cout << numeric_limits<short>::lowest() << endl; // -32768
-
-    s = 32767;
-    s += 1; // 32678
-
-    // overflow 현상이 나타남
-    //최대치에서 하나를 더하면 오히려 가장 작은 수가 나타나는 현상
-    cout << s << endl; // -32768 
-
-    s = numeric_limits<short>::min(); // -32768
-    s = s - 1;
-
-    // 여기서도 overflow 현상이 나타남
-    // 최소치에서 하나를 더 빼면 오히려 가장 큰 수가 나타나는 현상
-    cout << " " << s << endl; // 32676
-
+    cout << 1.0 / 3.0 << endl;
     
-    // -1를 signed로 바꿔주지만 
-    // 쓰레기 값으로 바꿔서(overflow 방식으로) 바꿔줌
-    unsigned int u_i = -1;
-    cout << u_i << endl; // 쓰레기 값이 나옴
+    cout << numeric_limits<float>::max() << endl;
+    cout << numeric_limits<double>::max() << endl;
+    cout << numeric_limits<long double>::max() << endl;
 
-    int i2 = 20 / 4; // 5
-    int i3 = 22 / 4; // 5
+    cout << numeric_limits<float>::min() << endl; // 표현하는 숫자의 가장 작은 수
+    cout << numeric_limits<double>::min() << endl;
+    cout << numeric_limits<long double>::min() << endl;
+    
+    cout << numeric_limits<float>::lowest() << endl; // 비교할 때 사용
+    cout << numeric_limits<double>::lowest() << endl;
+    cout << numeric_limits<long double>::lowest() << endl;
 
-    // 둘다 정수이면 결과는 정수
-    cout << 22 / 4 << endl; // 5
-    // 둘중의 하나가 실수이면 결과는 실수
-    cout << (float)22 / 4 << endl; // 5.5
+    // float f(3.141592f); // 3.14 = 31.4 * 0.1
+    // double f(3.141592);
+    // long double ld(3.141592);
+
+    cout << 3.14 << endl;
+    cout << 31.4e-1 << endl; // 3.14 (3.14 -10의 1제곱)
+    cout << 31.4e-2 << endl; // 0.314
+    cout << 31.4e1 << endl; // 314
+    cout << 31.4e2 << endl; // 3140
     
     return 0;
 }
