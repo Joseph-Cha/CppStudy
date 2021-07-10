@@ -33,3 +33,7 @@
 - [3.2 산술 연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.2%20%EC%82%B0%EC%88%A0%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [3.3 증감 연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.3%20%EC%A6%9D%EA%B0%90%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [3.4 sizeof, 쉼표 연산자, 조건(부)연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.4%20sizeof%2C%20%EC%89%BC%ED%91%9C%20%EC%97%B0%EC%82%B0%EC%9E%90%2C%20%EC%A1%B0%EA%B1%B4(%EB%B6%80)%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [3.5 관계 연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.5%20%EA%B4%80%EA%B3%84%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [3.6 논리 연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.6%20%EB%85%BC%EB%A6%AC%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [3.7 이진수](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.7%20%EC%9D%B4%EC%A7%84%EC%88%98.md)
+- [3.8 비트 연산자(bitwise)](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.8%20%EB%B9%84%ED%8A%B8%20%EC%97%B0%EC%82%B0%EC%9E%90(bitwise).md)
