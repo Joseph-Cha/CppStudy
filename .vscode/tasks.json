@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe 활성 파일 빌드",
+            "label": "C/C++: g++.exe build active file",
             "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe",
             "args": [
                 "-g",
@@ -11,7 +11,26 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "C:\\ProgramData\\chocolatey\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Generated task by Debugger"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file ver(1)",
+            "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\ProgramData\\chocolatey\\bin"
             },
             "problemMatcher": [
                 "$gcc"
@@ -20,7 +39,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "디버거에서 생성된 작업입니다."
+            "detail": "Generated task by Debugger"
         }
     ],
     "version": "2.0.0"
