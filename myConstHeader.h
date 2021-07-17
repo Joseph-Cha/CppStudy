@@ -4,8 +4,8 @@
 // 여러번 반복되어 사용되는 상수들을 한 곳에 모아놓고 사용하는 것이 좋음
 namespace constants
 {
-    constexpr double pi(3.141592);
-    constexpr double avogadro(6.0221413e23);
-    constexpr double moon_gravity(9.8 / 6.0);
+    extern const double pi;
+    extern const double avogadro;
+    extern const double moon_gravity;
     // ...
 }
