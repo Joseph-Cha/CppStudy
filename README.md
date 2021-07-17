@@ -37,3 +37,8 @@
 - [3.6 논리 연산자](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.6%20%EB%85%BC%EB%A6%AC%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [3.7 이진수](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.7%20%EC%9D%B4%EC%A7%84%EC%88%98.md)
 - [3.8 비트 연산자(bitwise)](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.8%20%EB%B9%84%ED%8A%B8%20%EC%97%B0%EC%82%B0%EC%9E%90(bitwise).md)
+- [3.9 비트 플래그, 비트 마스크 사용법](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.3/3.9%20%EB%B9%84%ED%8A%B8%20%ED%94%8C%EB%9E%98%EA%B7%B8%2C%20%EB%B9%84%ED%8A%B8%20%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+
+### 4장
+- [4.1 지역변수, 범위, 지속기간](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.1%20%EC%A7%80%EC%97%AD%EB%B3%80%EC%88%98%2C%20%EB%B2%94%EC%9C%84%2C%20%EC%A7%80%EC%86%8D%EA%B8%B0%EA%B0%84.md)
+- [4.2 전역변수, 정적변수, 내부 연결, 외부 연결](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.2%20%EC%A0%84%EC%97%AD%EB%B3%80%EC%88%98%2C%20%EC%A0%95%EC%A0%81%EB%B3%80%EC%88%98%2C%20%EB%82%B4%EB%B6%80%20%EC%97%B0%EA%B2%B0%2C%20%EC%99%B8%EB%B6%80%20%EC%97%B0%EA%B2%B0.md)
