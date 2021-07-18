@@ -42,3 +42,6 @@
 ### 4장
 - [4.1 지역변수, 범위, 지속기간](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.1%20%EC%A7%80%EC%97%AD%EB%B3%80%EC%88%98%2C%20%EB%B2%94%EC%9C%84%2C%20%EC%A7%80%EC%86%8D%EA%B8%B0%EA%B0%84.md)
 - [4.2 전역변수, 정적변수, 내부 연결, 외부 연결](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.2%20%EC%A0%84%EC%97%AD%EB%B3%80%EC%88%98%2C%20%EC%A0%95%EC%A0%81%EB%B3%80%EC%88%98%2C%20%EB%82%B4%EB%B6%80%20%EC%97%B0%EA%B2%B0%2C%20%EC%99%B8%EB%B6%80%20%EC%97%B0%EA%B2%B0.md)
+- [4.3 Using문과 모호성](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.3%20Using%EB%AC%B8%EA%B3%BC%20%EB%AA%A8%ED%98%B8%EC%84%B1.md)
+- [4.4 auto 키워드와 자료형 추론](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.4%20auto%20%ED%82%A4%EC%9B%8C%EB%93%9C%EC%99%80%20%EC%9E%90%EB%A3%8C%ED%98%95%20%EC%B6%94%EB%9F%B0.md)
+- [4.5 암시적 형변환과, 명시적 형변환](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.4/4.5%20%EC%95%94%EC%8B%9C%EC%A0%81%20%ED%98%95%EB%B3%80%ED%99%98%EA%B3%BC%2C%20%EB%AA%85%EC%8B%9C%EC%A0%81%20%ED%98%95%EB%B3%80%ED%99%98.md)
