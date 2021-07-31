@@ -1,126 +1,20 @@
 #include <iostream>
 
-using namespace std;
-int min(int x, int y)
+enum class _Colors2
 {
-    if (x > y)
-    {
-        return y;
-    }
-    else
-    {
-        return x;
-    }
+    BLACK,
+    WHITE,
+    RED,
+    GREEN,
+    BLUE
+};
 
-    return (x > y) ? y : x;
+void printColorName(_Colors2 colors)
+{
+
 }
 
 int main()
 {
-    int x;
-    cin >> x;
-
-    if (x > 10)
-    {
-        cout << x << " is greater than 10" << endl;
-        cout << "Test 1" << endl;
-    }
-    else
-    {
-        cout << x << " not is greater than 10" << endl;
-        cout << "Test 1 " << endl;
-    }
-
-    // true => 0이 아니면 true
-    if (1)
-    {
-        // 여기서 x는 { }를 벗어나는 순간 사라진다.
-        int x = 5;
-    }
-    else
-    {
-        int x = 6;
-    }
-    if (x > 10)
-    {
-        cout << "x is greater than 10" << endl;
-    }
-    
-    else if (x < 10)
-    {
-        cout << "x is less than 10" << endl;
-    }
-    else // if (x = 10)
-    {
-        cout << "x is exactly 10" << endl;
-    }
-
-    if (x >= 10)
-    {
-        if (x <= 20)
-            cout << "x is between 10 and 20" << endl;
-        else   
-            cout << "  " << endl;
-    }
-    else
-    {
-        cout << " " << endl;
-    }
-
-    cout << x << endl;
-
-    int x, y;
-    cin >> x >> y;
-    if (x == y)
-    {
-        cout << "same numbers" << endl;
-    }
-    else
-    {
-        cout << "Not same" << endl;
-    }
-
-    if (x > 0 && y > 0)
-    {
-        cout << "both numbers are positive" << endl;
-    }
-    else if(x > 0 || y > 0)
-    {
-        cout << "one of the numbers is positive" << endl;
-    }
-    else
-    {
-        cout << "Neither number is positive" << endl;
-    }
-
-    int a;
-    cin >> a;
-
-    if (a > 10)
-    {
-        cout << " .. " << endl;
-    }
-    // 특정 조건일 때 함수를 종료
-    else if(a == -1)
-    {
-        return 0;
-    }
-    else if (a < 0)
-    {
-        cout << "B" << endl;
-    }
-
-    // 이러면 조건문을 타고 가지 않는다.
-    if (x > 10);
-    {
-        x = 1; 
-    }
-    // x에 0을 할당하고 항상 true이기 때문에 if문을 항상 타게 됨
-    if (x = 0)
-    {
-        x = 1;
-    }
-    
-
-    return 0;
+    // printColorName(v_Colors2::BLACK);
 }
