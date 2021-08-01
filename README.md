@@ -1,6 +1,7 @@
 # 따라하며 배우는 C++ 강의 기록 공간
 
  따배 C++ 강의 기록 공간
+ 참고 강의 : [홍정모의 따라하며 배우는 C++](https://www.inflearn.com/course/following-c-plus)
 
 ## 강의 노트 링크
 ### 1장. C++의 기초적인 사용법
