@@ -61,3 +61,13 @@
 - [5.2 조건문 if](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.2%20%EC%A1%B0%EA%B1%B4%EB%AC%B8%20if.md)
 - [5.3 swtich case](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.3%20swtich%20case.md)
 - [5.4 goto](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.4%20goto.md)
+- [5.5 반복문 while](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.5%20%EB%B0%98%EB%B3%B5%EB%AC%B8%20while.md)
+- [5.6 반복문 do while](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.6%20%EB%B0%98%EB%B3%B5%EB%AC%B8%20do%20while.md)
+- [5.7 반복문 for](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.7%20%EB%B0%98%EB%B3%B5%EB%AC%B8%20for.md)
+- [5.8 break, countinue](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.8%20break%2C%20countinue.md)
+- [5.9 난수 만들기](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.5/5.9%20%EB%82%9C%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+
+### 6장. 행렬, 문자열, 포인터, 참조
+
+- [6.1 배열 기초[1 of 2] array](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.6/6.1%20%EB%B0%B0%EC%97%B4%20%EA%B8%B0%EC%B4%88%5B1%20of%202%5D%20array.md)
+- [6.2 배열 기초[2 of 2] array](https://github.com/Joseph-Cha/CppStudyWithDBCpp/blob/main/Note/ch.6/6.2%20%EB%B0%B0%EC%97%B4%20%EA%B8%B0%EC%B4%88%5B2%20of%202%5D%20array.md)
