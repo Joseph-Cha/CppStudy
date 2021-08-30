@@ -1,4 +1,6 @@
-### add.h
+### 1.12 헤더 가드
+
+**add.h**
 ``` C++
 #pragma once
 
@@ -17,7 +19,7 @@ int add(int a, int b)
 // #endif
 ```
 
-### myWork.h
+**myWork.h**
 ``` C++
 #pragma once
 
@@ -29,7 +31,7 @@ void doSomething()
 }
 ```
 
-### program.cpp
+**program.cpp**
 ``` C++
 
 #include <iostream>

@@ -1,3 +1,5 @@
+### 1.10 선언과 정의의 분리
+
 ``` C++
 #include <iostream>
 using namespace std;

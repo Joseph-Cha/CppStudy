@@ -1,3 +1,5 @@
+### 1.7 지역 범위
+
 ``` C++
 #include <iostream>
 using namespace std;
