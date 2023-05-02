@@ -47,8 +47,10 @@ pCom->ShowComplex() // pCom이 가리키고 있는 객체(clist[0])의 ShowCompl
 ## 함수의 매개변수로 객체 배열 사용
 
 - 일반 배열의 경우와 동일
+    - 배열을 통채로 넘기는 효과
 - 실인수에는 배열의 이름만 기술
-    - 배열의 시작주소를 전달
+    - 배열 첫 번째 요소의 시작주소를 전달
+        - 배열을 복사해서 넘기는 것이 아니라 주소만 넘겨주기 때문에 효율적이다.
     - 함수 내에서 접근하고자 하는 배열의 크기
     
     ```cpp
@@ -61,3 +63,36 @@ pCom->ShowComplex() // pCom이 가리키고 있는 객체(clist[0])의 ShowCompl
     void fn(Complex* array, int n); // 배열의 시작 주소를 저장하기 위해 포인터 변수 필요
     void fn(Complex array[], int n);
     ```
+    
+    - 반복해야 하는 길이가 호출할 때마다 달라지는 경우 길이 값(n)을 호출 시 전달해 주는 것도 관례이다.
+    - 위 두개의 함수가 표현상의 차이만 있을 뿐 내부적으로는 동일하게 동작한다.
+
+## 예제 코드
+
+```cpp
+#include "Point.h"
+#include <iostream>
+
+void ShowPointArray(Point* array, int size);
+
+int main(void)
+{
+    Point cList[] = {
+        Point(),
+        Point(10, 20),
+        Point(30, 40)
+    };
+
+    const int NLIST = sizeof cList / sizeof cList[0];
+    
+    ShowPointArray(cList, NLIST);
+}
+
+// void ShowPointArray(Point array[], int size) {
+void ShowPointArray(Point* array, int size) {
+    for (int i = 0; i < size; i++) {
+        // std::cout << array[i].GetX() << std::endl;
+        std::cout << (array + i)->GetX() << std::endl;
+    }
+}
+```
