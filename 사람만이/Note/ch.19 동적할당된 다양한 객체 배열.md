@@ -78,3 +78,22 @@ Point* CreateList(int n)
     (plist + 1)->GetX();
     delete [] plist;
     ```
+
+## 객체 포인터 배열
+
+- 우선 포인터 배열만 선언
+    - 상대적으로 초기 메모리를 적게 필요로 함
+- 추후 필요시 객체를 동적 생성하여 연결
+    
+    ```cpp
+    Complex* plist[5];
+    plist[0] = new Complex;
+    plist[1] = new Complex(1, 1);
+    
+    plist[0]->ShowComplex();
+    
+    delete plist[0];
+    delete plist[1];
+    ```
+    
+    ![Untitled](/resources/%EC%82%AC%EB%9E%8C%EB%A7%8C%EC%9D%B4/ch.19/1.png)
