@@ -68,3 +68,11 @@ public:
 - 객체 생성 없이 호출 가능
     - static 멤버 필드의 안전한 접근 제공
     - 간편한 사용을 위해 객체 생성과 관련 없는 일반적인 기능 제공
+
+## static 멤버 함수의 예
+
+![Untitled](/resources/%EC%82%AC%EB%9E%8C%EB%A7%8C%EC%9D%B4/ch.21/2.png)
+
+## instance 멤버 vs static 멤버
+
+![Untitled](/resources/%EC%82%AC%EB%9E%8C%EB%A7%8C%EC%9D%B4/ch.21/3.png)
