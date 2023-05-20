@@ -30,3 +30,7 @@ class derivedClassName:access baseClassName {
 - Base 클래스의 private 멤버를 derived 클래스에서 직접 접근하는 것은 모든 경우에서 불가
     - Base 클래스의 private 멤버는 파생 클래스의 private 멤버로 전달되는 것이 아니다.
     - Base 클래스의 private 멤버가 파생 클래스에 전달은 되어지지만 Base의 private인채로 전달되어 진다.
+
+## 상속의 여러 방법들
+
+![Untitled](/resources/%EC%82%AC%EB%9E%8C%EB%A7%8C%EC%9D%B4/ch.23/1.png)
