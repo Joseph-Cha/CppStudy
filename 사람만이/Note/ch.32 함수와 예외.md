@@ -6,3 +6,33 @@
     - 예외가 발생한 위치와 예외를 처리해야 하는 위치가 달라야 하는 경우에 유용
     
     ![Untitled](/resources/%EC%82%AC%EB%9E%8C%EB%A7%8C%EC%9D%B4/ch.32/1.png)
+
+## 예외 처리 매커니즘을 이용(최종)
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int getExp(int base, int exp);
+int main(void)
+{
+	try {
+		int rv = getExp(2, -3); // 2의 -3승은?
+		cout << "2의 -3승은 " << rv << "입니다." << endl;
+	}
+	catch (const char* e) {
+		cout << "오류: " << e << endl; 
+	}
+	return 0;
+}
+
+int getExp(int base, int exp)
+{
+	if (base <= 0 || exp <= 0) throw "음수 사용 불가";
+	int value = 1;
+	for (int n = 0; n < exp; n++) {
+		value = value * base;
+	}
+	return value
+}
+```
